@@ -37,7 +37,7 @@
             <div class="column is-6 has-text-right">
               <button 
                 @click="toggleDone(todo.id)"
-                class="button"
+                class="button mb-1"
                 :class="todo.done ? 'is-success' : 'is-light'"
               >
                 &check;
